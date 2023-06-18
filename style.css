@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 html,
@@ -10,3 +11,46 @@ body {
 }
 
 /* Add styles here! */
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+main {
+  padding: 64px 0;
+}
+
+.card {
+  padding: 24px;
+  margin: 0 -24px;
+}
+
+.indented-heading {
+  width: fit-content;
+  margin-left: -32px;
+  margin-top: -16px;
+  margin-bottom: 1rem;
+  padding: 16px 32px;
+}
+
+
